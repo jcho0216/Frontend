@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+   
+    <title>Forms Review</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <hr>
+      <form action="submission.html" method="POST">
+				<h1>Create a burger!</h1>
+        <section class="protein">
+          <label for="patty">무슨 음식을 좋아하나요?</label>
+    			<input type="text" name="patty" id="patty">
+        </section>
+        <hr>
+        
+        <section class="patties">
+          <label for="amount">패티 몇개를 원하시나요?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+        
+        <section class="cooked">
+          <label for="doneness">어떻게 요리 해드릴까요?</label>
+          <br>
+          <span>Rare</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+          <span>Well-Done</span>
+        </section>
+        <hr>
+        
+        <section class="toppings">
+          <span>무슨 토핑을 원하세요?</span>
+          <br>
+          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Lettuce</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Tomato</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Onion</label>
+        </section>
+        <hr>
+        
+        <section class="cheesy">
+          <span>치즈 추가 하실건가요?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+       
+        <section class="bun-type">
+          <label for="bun">What type of bun would you like?</label>
+          <select name="bun" id="bun">
+            <option value="sesame">Sesame</option>
+            <option value="potatoe">Potato</option>
+            <option value="pretzel">Pretzel</option>
+          </select>
+        </section>
+        <hr>
+        
+        <section class="sauce-selection">
+          <label for="sauce">What type of sauce would you like?</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="ketchup"></option>
+            <option value="mayo"></option>
+            <option value="mustard"></option>
+          </datalist>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">추가하고 싶은거 잇나요?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
