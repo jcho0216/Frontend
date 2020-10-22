@@ -1,0 +1,183 @@
+#banner{
+    background-image: url("korea.png");
+    width: 1200px;
+    height: 800px;
+    margin: auto auto;
+}
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  
+  .navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  
+  #banner .content h1 {
+    border: 3px solid white;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+    overflow: scroll;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 49px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  h2 {
+    border: 1px dotted red;
+    color: red;
+    font-size: 21px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color:#D42D0A;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+  p {
+    color: grey;
+    font-size: 23px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+  }
+
+  a{text-decoration:none;
+
+    } 
+
+  .article{
+    float: left;
+  }
+
+
+  ul, li{
+    list-style: none;
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 11px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
+
+  .articles .sidemenu{
+    font-size: 20px;
+  }
+
+  .article_submenu{
+    font-size: 20px;
+    text-align: left; 
+    color: black;
+    position: relative; 
+    margin: 0px;
+
+  }
+
+ 
+  #left{
+    width: 250px;
+    height: 1000px;
+    text-align: left;
+    color: #e2e2e2;
+    float: left;
+    position: fixed;
+    border-style: 2px dotted red;
+    height: 380px;
+    border-radius: 50px;
+    
+}
+
+#title{
+    padding: 10px 10px;
+    margin: 0;
+    color: #D42D0A;
+    border: 3px dotted;   
+}
+
+#menu{
+    padding:0;
+    margin:-58px 7px;
+    float: right;
+    
+    color: #E61EC2;
+}
+
+#title #menu{
+  font-size: 17px;
+}
+
+
+a:hover{
+  color: pink;
+}

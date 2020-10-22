@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    color: #D42D0A;
+    font-size: 80px;
+    text-align: center;
+    
+}
+
+
+#id{
+   width: 600px;
+   height: 100px;
+   font-size: 50px;
+   border-style: dotted;
+   border-radius: 30px;
+   position: relative;
+   top:1em;
+
+}
+
+#pw{
+   width: 600px;
+   height: 100px;
+   font-size: 50px;
+   border-style: dotted;
+   border-radius: 30px; 
+}
+
+#junseo{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#li{
+    color: yellow;
+}
+
+#submit{
+    font-size: 47px;
+    border-style: dotted;
+    border: 3px;
+    color: #D42D0A;
+    position: relative;
+    top: -2em;
+}
+
+
+.log{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
