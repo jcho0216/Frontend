@@ -1,0 +1,10 @@
+.dropbox {
+    height: 810px;
+    padding: 50px;
+    border: solid black 2px;
+    overflow: hidden;
+}
+
+img {
+    margin: 20px;
+}
