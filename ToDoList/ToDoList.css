@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}    
+
+p {
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Nerko One', cursive;
+}
+
+body {
+    background-color: gainsboro;
+
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    margin: 20px 390px;
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 10px 20px;
+    background-color: gainsboro;
+    padding: 10px;
+    width: 1050px;
+}
+
+.container {
+    height: 740px;
+    width: 1120px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+
+}
+
+.input-box {
+    width: 920px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    margin: 15px 20px;
+    background-color: gainsboro;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+}
+
+.add-btn {
+    height: 40px;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    background-color: gainsboro; 
+    position: relative;
+    top: -3.5px;
+}
