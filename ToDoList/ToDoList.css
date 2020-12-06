@@ -12,46 +12,41 @@ p {
 }
 
 body {
-    background-color: #cfffe5;
-
+    background: linear-gradient(#d4ffb3, #b1fff6);
+    padding: 13px;
 }
 
 header {
     background-color: white;
     height: 80px;
-    margin: 20px 500px;
+    margin: 20px 580px;
     padding-top: 10px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
 }
 
 li {
     list-style: none;
     font-family: 'Do Hyeon', sans-serif;
     margin: 10px 20px;
-    background-color: gainsboro;
+    background-color: #f6ffd3;
     padding: 10px;
-    width: 837px;
+    width: 656px;
 }
 
 .container {
     height: 740px;
-    /* width: 1120px; */
     background-color: white;
     padding: 10px;
-    margin: 20px 500px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    margin: 20px 580px;
 }
 
 .input-box {
-    width: 710px;
+    width: 550px;
     height: 20px;
     padding: 10px;
     border: none;
     outline: 0;
-    margin: 15px 20px;
-    background-color: gainsboro;
+    margin: 15px 0px 15px 20px;
+    background-color: #f7ffcf;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 30px;
 }
@@ -62,7 +57,7 @@ li {
     border: none;
     outline: 0;
     padding: 10px;
-    background-color: gainsboro; 
+    background-color: #f7ffcf; 
     position: relative;
     top: -3.5px;
     font-size: 15px;
