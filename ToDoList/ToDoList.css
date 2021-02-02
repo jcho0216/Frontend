@@ -14,6 +14,20 @@ p {
     top: -7px;
 }
 
+h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 15px;
+    position: relative;
+    text-align: end;
+    /* align-items: center; */
+    /* top: 0px; */
+    width: 80px;
+    left: 577px;
+    top: -43px;
+}
+
 .h3-clock {
     position: relative;
     left: 25px;
@@ -50,12 +64,16 @@ header {
 li {
     list-style: none;
     font-family: 'Do Hyeon', sans-serif;
-    margin: 10px 20px;
+    margin: 7px 20px;
     background-color: #f6ffd3;
-    padding: 10px;
-    width: 656px;
+    padding-left: 14px;
+    padding-top: 7px;
+    width: 666px;
+    height: 45px;
     transition: 0.7s;
+    font-size: 30px;
 }
+
 
 .container {
     height: 740px;
@@ -110,14 +128,14 @@ li {
 .delBtn, .editBtn {
     outline: 0;
     border: 0;
-    margin: 1px 5px;
+    margin: 14px 3px;
     float: right;
     position: relative;
-    bottom: 5px;
+    /* bottom: 0px; */
+    left: -2px;
     width: 24px;
     height: 24px;
 }
-
 
 
 
