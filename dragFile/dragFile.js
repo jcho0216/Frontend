@@ -1,3 +1,4 @@
+//drag ur image file on the website
 $(function(){
     $('#drop').on({
         'drop':function(e){
